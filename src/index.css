@@ -1,0 +1,65 @@
+body {
+  background-color: black;
+}
+
+.camera-container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.camera-preview {
+  margin-bottom: 20px;
+}
+.captured {
+  margin-top: 2rem;
+  box-shadow: -10px -15px 20px rgb(134, 130, 130);
+}
+
+.camera-preview video {
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 0 0 10px white;
+  margin-top: 2rem;
+}
+
+.camera-preview button {
+  margin-top: 12rem;
+  padding: 10px 40px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: cyan;
+  border: none;
+  box-shadow: 0 0 5px cyan, 0 0 25px cyan;
+}
+.camera-preview button:hover {
+  box-shadow: 0 0 5px cyan, 0 0 25px cyan, 0 0 50px cyan, 0 0 100px cyan,
+    0 0 200px cyan;
+}
+#btn_retake {
+  width: 200px;
+  height: 30px;
+  background-color: aqua;
+  border: none;
+  color: black;
+  font-size: 1.2rem;
+  cursor: pointer;
+  border-radius: 10px;
+}
+#btn_retake:hover {
+  box-shadow: 0 0 15px white;
+}
+#btn {
+  width: 200px;
+  height: 30px;
+  border: none;
+  margin-left: 2rem;
+  background-color: cadetblue;
+  font-size: 15px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+#btn:hover {
+  box-shadow: 0 0 10px white;
+}
